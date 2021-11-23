@@ -1,0 +1,64 @@
+body {
+    background-image: url(../Images/water-lily-1510707_1920.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-color: #060505;
+    background-blend-mode: color-dodge;
+}
+
+.container {
+    display: flex;
+    overflow: auto;
+}
+
+.container h1 {
+    padding: 55px 40px;
+        color: #d80506;
+        font-size: 3.5rem;
+}
+
+#calulator-bd {
+    display: flex;
+     width: 80%;
+     align-items: center;
+     flex-direction: column;
+     top: 80px;
+    /* margin: 50px 100px; */
+    /* border-radius: 10px;
+    border: 2px solid red; */
+}
+
+#calulator-bd input {
+    position: relative;
+    height: 20vh;
+    width: 80%;
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, .6);
+    border-radius: 10px;
+    
+}
+
+@media (min-width:1250px){
+#calulator-bd input{
+    width: 50%;
+    margin-top: 85px;
+}
+}
+
+table{
+    margin: 0%;
+    display: inline-block;
+}
+
+button {
+    font-size: 30px;
+    /* padding: 20px; */
+    margin: 0px;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 12px;
+}
